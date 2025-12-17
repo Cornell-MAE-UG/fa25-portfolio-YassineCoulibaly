@@ -32,7 +32,7 @@ From the data obtained during testing, performance calculations were able to be 
 The measured power curves show that mechanical power with rotational speed under increasing electrical load, reaching a maximum before declining as stall behaviour is approached. We obtained a maximum measured power output of about 1.1W. This occurred at the third rotational speed at which the test was run, at 400 RPM, rather than at the maximum rpm condition. The calculated efficiency curve indicates a maximum efficiency occurring at the condition of our maximum power output, with a corresponding tip-speed ratio of 0.51. The peak efficiency occurring at a tip speed ratio less than 1 suggests that the rotor operated at a relatively low blade tip speed compared to the incoming flow. For a more efficient turbine, we would expect a higher tip speed ratio closer to three.
 
 
-![Power Curves]("/assets/images/powercurves.jpg" "Power Curves")
+![Power Curves](/assets/images/powercurves.jpg "Power Curves")
 
 My Contribution: 
 Throughout the design phase, I worked on the experimental protocol and came up with the best procedure to test our design during the 60-minute timeslot we were assigned. I used knowledge from previous labs’ experiments and lessons learned to make the process as smooth and straightforward as possible. After the experiment was conducted, I worked on postprocessing our data from Big Blue, calculating our tip ratio and efficiency, as well as making power and efficiency curves. 
