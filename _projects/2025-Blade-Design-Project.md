@@ -16,14 +16,23 @@ The blade geometry was developed using blade element aerodynamic modelling in MA
 
 ![Shaded rendering of earlier version]({{ "/assets/images/codeflowchart.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+![Photo of blade]({{ "/assets/images/blade-design.jpg" | relative_url }}){: .inline-image-l}
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Testing Summary: 
 
-I was inspired by this old radio when I made this rendering:
+In order to effectively evaluate our design, we tested our three blades in Big Blue. The purpose of the test was to quantify our turbine performance at operating speeds up to a maximum of 2000RPM. The goal was to obtain power curves at each tested speed, tip speed ratio, and efficiency. Testing was conducted in the lab in the big blue tunnel using our prototyped three-blade design attached to the hub. Using the LabVIEW interface for data acquisition to acquire power, rpm, voltage, and current readings. 
 
-![Photo of blade]({{ "/assets/images/bladepicture.jpg" | relative_url }}){: .inline-image-l}
+Once we had set up our blade with the hub, we ran the wind tunnel at five different wind speeds corresponding to a rotational speed of 250 to 550 RPM. At each of these speeds, we first recorded the free spin and baseline power, torque, rpm, voltage, and current data. We proceed to increase the electrical load on the turbine incrementally, going up by about 0.5V each time. At each of those increments, the turbine was allowed to reach steady state before the data was collected. Loading was continued until the rotor speed dropped significantly and the turbine was barely spinning, or when the turbine stalled completely. 
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+From the data obtained during testing, performance calculations were able to be conducted. 
+![Photo of blade]({{ "/assets/images/calcs.png" | relative_url }}){: .inline-image-l}
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+The measured power curves show that mechanical power with rotational speed under increasing electrical load, reaching a maximum before declining as stall behaviour is approached. We obtained a maximum measured power output of about 1.1W. This occurred at the third rotational speed at which the test was run, at 400 RPM, rather than at the maximum rpm condition. The calculated efficiency curve indicates a maximum efficiency occurring at the condition of our maximum power output, with a corresponding tip-speed ratio of 0.51. The peak efficiency occurring at a tip speed ratio less than 1 suggests that the rotor operated at a relatively low blade tip speed compared to the incoming flow. For a more efficient turbine, we would expect a higher tip speed ratio closer to three.
+
+
+![Photo of blade]({{ "/assets/images/powercurves.jpg" | relative_url }}){: .inline-image-l}
+
+My Contribution: 
+Throughout the design phase, I worked on the experimental protocol and came up with the best procedure to test our design during the 60-minute timeslot we were assigned. I used knowledge from previous labs’ experiments and lessons learned to make the process as smooth and straightforward as possible. After the experiment was conducted, I worked on postprocessing our data from Big Blue, calculating our tip ratio and efficiency, as well as making power and efficiency curves. 
+
+
