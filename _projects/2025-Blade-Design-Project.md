@@ -15,7 +15,7 @@ Design Process:
 
 The blade geometry was developed using blade element aerodynamic modelling in MATLAB, where lift, drag, and the relative angle of attack were evaluated along the span. We divided the blade into 10 elements. Using these results were able to select an airfoil profile, the NACA 4412, as well as the twist angle of 90 degrees for improved lift across operating conditions. The structural integrity of our turbine was ensured through strength and bending analysis, which confirmed that the blade would remain below its flexural strength and prevent failure during testing. 
 
-![Code Flowchart](assets/images/codeflowchart.jpg)
+![flowchart]({{ "/assets/images/codeflowchart.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 ![Blade design](/assets/images/blade-design.jpg "Blade Design")
 
