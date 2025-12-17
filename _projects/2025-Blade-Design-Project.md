@@ -18,7 +18,7 @@ The blade geometry was developed using blade element aerodynamic modelling in MA
 ![flowchart]({{ "/assets/images/codeflowchart.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 ![Blade design](/assets/images/blade-design.jpg "Blade Design")
-
+![Blade Design](assets/images/bladepicture.jpg)
 
 Testing Summary: 
 
