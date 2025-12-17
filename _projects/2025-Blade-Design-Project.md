@@ -27,7 +27,7 @@ Once we had set up our blade with the hub, we ran the wind tunnel at five differ
 
 From the data obtained during testing, performance calculations were able to be conducted.
 
-![Equations({{ "/assets/images/calcs.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Equations]({{ "/assets/images/calcs.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 The measured power curves show that mechanical power with rotational speed under increasing electrical load, reaching a maximum before declining as stall behaviour is approached. We obtained a maximum measured power output of about 1.1W. This occurred at the third rotational speed at which the test was run, at 400 RPM, rather than at the maximum rpm condition. The calculated efficiency curve indicates a maximum efficiency occurring at the condition of our maximum power output, with a corresponding tip-speed ratio of 0.51. The peak efficiency occurring at a tip speed ratio less than 1 suggests that the rotor operated at a relatively low blade tip speed compared to the incoming flow. For a more efficient turbine, we would expect a higher tip speed ratio closer to three.
 
