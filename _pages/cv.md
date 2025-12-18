@@ -20,7 +20,7 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.4/4.0 | Graduation: May,2026
+  Graduation: May,2026
 
 - **[International Community School of Abidjan]**  
   *High School Diploma*  
