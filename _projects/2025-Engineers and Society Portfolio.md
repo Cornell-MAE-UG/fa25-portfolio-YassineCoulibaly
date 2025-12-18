@@ -31,6 +31,29 @@ Ethical Principles Involved:
 This week established the foundation by clarifying who was affected and why the decisions surrounding MCAS had serious ethical implications.
 
 
+Week 7: Facts, Assumptions, and Definitions
+
+Relevant Facts :
+
+- MCAS was implemented to address stability issues cause by the larger engines. 
+- The system relied on a single sensir and repeatedly activate. 
+- Pilots were not fully informed about MCAS functionality.
+
+Resonable Assumptions:
+
+- Engineers raised concerns internally, but these concerns were minimized or overruled.
+- Schedule pressure and cost reduction influenced design and certification decisions.
+- Competitive pressure with Airbus shaped organizational priorities.
+
+Definitional Clarifications:
+
+Key terms such as safety, transparency, responsibility, and failure were analyzed from multiple perspectives:
+
+    - Boeing’s perspective: Meeting regulatory requirements and maintaining competitiveness.
+    - Victims’ families’ perspective: Full disclosure, accountability, and prioritization of human life.
+    - FAA’s perspective: Regulatory compliance and oversight efficiency.
+
+This week highlighted how differing definitions of ethical terms can significantly change ethical judgments.
 
 
 
