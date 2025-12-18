@@ -49,9 +49,10 @@ Definitional Clarifications:
 
 Key terms such as safety, transparency, responsibility, and failure were analyzed from multiple perspectives:
 
-    - Boeing’s perspective: Meeting regulatory requirements and maintaining competitiveness.
-    - Victims’ families’ perspective: Full disclosure, accountability, and prioritization of human life.
-    - FAA’s perspective: Regulatory compliance and oversight efficiency.
+- Boeing’s perspective: Meeting regulatory requirements and maintaining competitiveness.
+- Victims’ families’ perspective: Full disclosure, accountability, and prioritization of human life.
+- FAA’s perspective: Regulatory compliance and oversight efficiency.
+
 
 This week highlighted how differing definitions of ethical terms can significantly change ethical judgments.
 
@@ -124,5 +125,6 @@ Systemic Level
 This week emphasized that ethical failures are rarely individual alone, but often systemic, requiring solutions at multiple levels.
 
 Conclusion
+
 The Weeks 6–9 activities collectively illustrate how ethical failures in engineering arise from a combination of technical decisions, organizational culture, and systemic pressures. Through structured ethical analysis, application of professional codes, and consideration of real-world constraints, this portfolio demonstrates a comprehensive understanding of engineering ethics and the importance of prioritizing public safety above all else.
 
